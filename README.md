@@ -62,7 +62,7 @@ These are the results of increasing the training period to 4 months. It resulted
 
 Below are the final results of the best model and tuning combination. The parameters included shortening the short window to 2 days, decreasing the training period to 2 months and utilizing the AdaBoost classifier. Its results are by far the best of any.
 
-<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategy2short2offsetbestresutls.png" width=500 height=300>
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/AdaboostStrategy.png" width=500 height=300>
 
 ---
 
