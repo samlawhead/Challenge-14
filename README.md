@@ -32,7 +32,37 @@ Before running the application first install the following dependencies:
 
 To use the model simply run the "main.ipynb" file in the terminal. The following images are screenshots showing the output with various different tuning parameters.
 
+These are the results of the original parameters, the SVC classifier model with a 3 month training period, 4 day short window and 100 day long window.
 
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategyv1.png" width=500 height=300>
+
+There are the results of shortening the short window to 2 days. It results in better performance.
+
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategy2shortwindows.png" width=500 height=300>
+
+These are the results of increasing the short windows to 10 days. It results in worse performance.
+
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategy10shortwindow.png" width=500 height=300>
+
+These are the results of decreasing the long windows to 50 days. It results in worse performance.
+
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategy50daylongwindow.png" width=500 height=300>
+
+These are the results of increasing the long window to 120 days. It results in worse performance.
+
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategy120daylong%20windows.png" width=500 height=300>
+
+These are the results of decreasing the training period to 2 months. It results in better performance.
+
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategy2moffset.png" width=500 height=300>
+
+These are the results of increasing the training period to 4 months. It resulted in worse performance.
+
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategy4%20m%20offset.png" width=500 height=300>
+
+Below are the final results of the best model and tuning combination. The parameters included shortening the short window to 2 days, decreasing the training period to 2 months and utilizing the AdaBoost classifier. Its results are by far the best of any.
+
+<img src="https://github.com/samlawhead/Challenge-14/blob/main/CumReturnsActualvsStrategy2short2offsetbestresutls.png" width=500 height=300>
 
 ---
 
